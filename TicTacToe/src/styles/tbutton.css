@@ -1,0 +1,22 @@
+.midButton{
+    font-size: xx-large;
+    width: 200px;
+    height: 200px;
+    border-right-width: 1px;
+    border-left-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    background-color: rgb(255, 255, 255);
+}
+.lastButton{
+    font-size: xx-large;
+    border-width: 0px;
+    width: 200px;
+    height: 200px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: rgb(255, 255, 255);
+}
+.screenMiddle{
+    margin-left: 700px;
+}
