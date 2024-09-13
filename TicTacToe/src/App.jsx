@@ -29,7 +29,10 @@ function winner(squares) {
   for (let index = 0; index < lines.length; index++) {
     const [a, b, c] = lines[index]
     if (squares[a] && squares[a] === squares[b] && squares[a] === squares[c])
+    {
+      alert("Player " + squares[a] + " won the match")
       return squares[a]
+    }
   }
   return null
 }
@@ -64,7 +67,7 @@ function Board() {
         <MButton value={squares[7]} onClick={() => changePlayer(7)}></MButton>
         <LButton value={squares[8]} onClick={() => changePlayer(8)}></LButton>
       </div>
-      <h1>Player {xTurn ? "X" : "O"} turn</h1>
+      <h1>{xTurn ? "X" : "O"} turn</h1>
     </>
   )
 }
